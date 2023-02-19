@@ -128,7 +128,7 @@ const Projects = () => {
         }}
       >
         <div>
-          <p className="font-Roboto font-semibold text-4xl">
+          <p className="pt-16 pb-5 font-Roboto font-semibold text-4xl">
             <span >VIDEOS</span>
           </p>
           <div className="flex justify-center mt-5">
@@ -148,7 +148,6 @@ const Projects = () => {
         <img alt="youtube-link" src="../assets/big-youtube.png" />
       </a>
       </motion.div>
-
     </section>
   );
 };
