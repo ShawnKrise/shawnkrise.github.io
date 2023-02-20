@@ -72,7 +72,7 @@ const MySkills = () => {
           <p className="mt-5">
             I have experience working as a Marketing Specialist/Graphic Designer at Commercial Brokerage LLC seasonally from May 2016 to December 2021 and then transitioned to full time from May 2022 to December 2022.  The job required I design custom flyer advertising layouts using the Adobe Software Suite and Microsoft Office for
 commercial properties located throughout Bernalillo County, New Mexico. I also Traveled to and inspected
-property sites, logged appropriate details, and photographed for company usage. My other tasks included dealing with technical support matters and creating/maintaining a custom company website using frontend development tools.
+property sites, logged appropriate details, and photographed sites for company usage. My other tasks included dealing with technical support matters and creating/maintaining a custom company website using frontend development tools.
           </p>
         </motion.div>
 
