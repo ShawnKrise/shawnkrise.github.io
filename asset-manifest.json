@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shawnkrise.github.io/static/css/main.a3fea115.css",
-    "main.js": "/shawnkrise.github.io/static/js/main.e68d8e4a.js",
-    "static/media/person-1.png": "/shawnkrise.github.io/static/media/person-1.8d8f2729054a980ccbc1.png",
-    "static/media/person-3.png": "/shawnkrise.github.io/static/media/person-3.5e18719b9cf91237e7cf.png",
-    "static/media/person-6.png": "/shawnkrise.github.io/static/media/person-6.c7cf03df23b72a35fad7.png",
-    "index.html": "/shawnkrise.github.io/index.html",
-    "main.a3fea115.css.map": "/shawnkrise.github.io/static/css/main.a3fea115.css.map",
-    "main.e68d8e4a.js.map": "/shawnkrise.github.io/static/js/main.e68d8e4a.js.map"
+    "main.css": "/static/css/main.5c21e1df.css",
+    "main.js": "/static/js/main.e68d8e4a.js",
+    "static/media/person-1.png": "/static/media/person-1.8d8f2729054a980ccbc1.png",
+    "static/media/person-3.png": "/static/media/person-3.5e18719b9cf91237e7cf.png",
+    "static/media/person-6.png": "/static/media/person-6.c7cf03df23b72a35fad7.png",
+    "index.html": "/index.html",
+    "main.5c21e1df.css.map": "/static/css/main.5c21e1df.css.map",
+    "main.e68d8e4a.js.map": "/static/js/main.e68d8e4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3fea115.css",
+    "static/css/main.5c21e1df.css",
     "static/js/main.e68d8e4a.js"
   ]
 }
