@@ -46,6 +46,7 @@ const Projects = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.5 }}
         >
           {/* ROW 1 */}
           <div
@@ -55,34 +56,34 @@ const Projects = () => {
             STUNNING VISUAL GRAPHICS
           </div>
 
-          <img src="./assets/project-1.png"/>
-          <img src="./assets/project-2.png"/>
+          <img src="./assets/project-1.png" alt="project"/>
+          <img src="./assets/project-2.png" alt="project"/>
 
           {/* ROW 2 */}
-          <img src="./assets/project-3.png"/>
-          <img src="./assets/project-4.png"/>
-          <img src="./assets/project-5.png"/>
+          <img src="./assets/project-3.png" alt="project"/>
+          <img src="./assets/project-4.png" alt="project"/>
+          <img src="./assets/project-5.png" alt="project"/>
 
           {/* ROW 3 */}
-          <img src="./assets/project-6.png"/>
-          <img src="./assets/project-7.png"/>
-          <img src="./assets/project-8.png"/>
+          <img src="./assets/project-6.png" alt="project"/>
+          <img src="./assets/project-7.png" alt="project"/>
+          <img src="./assets/project-8.png" alt="project"/>
 
           {/* ROW 4 */}
-          <img src="./assets/project-9.png"/>
-          <img src="./assets/project-10.png"/>
-          <img src="./assets/project-11.png"/>
+          <img src="./assets/project-9.png" alt="project"/>
+          <img src="./assets/project-10.png" alt="project"/>
+          <img src="./assets/project-11.png" alt="project"/>
           {/* ROW 5 */}
-          <img src="./assets/project-12.png"/>
-          <img src="./assets/project-13.png"/>
-          <img src="./assets/project-14.png"/>
+          <img src="./assets/project-12.png" alt="project"/>
+          <img src="./assets/project-13.png" alt="project"/>
+          <img src="./assets/project-14.png" alt="project"/>
           {/* ROW 6 */}
-          <img src="./assets/project-15.png"/>
-          <img src="./assets/project-16.png"/>
-          <img src="./assets/project-17.png"/>
+          <img src="./assets/project-15.png" alt="project"/>
+          <img src="./assets/project-16.png" alt="project"/>
+          <img src="./assets/project-17.png" alt="project"/>
           {/* ROW 7 */}
-          <img src="./assets/project-18.png"/>
-          <img src="./assets/project-19.png"/>
+          <img src="./assets/project-18.png" alt="project"/>
+          <img src="./assets/project-19.png" alt="project"/>
 
           <div
             className="flex justify-center text-center items-center p-10 bg-black
