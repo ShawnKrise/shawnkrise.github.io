@@ -91,7 +91,7 @@ const Coding = () => {
           }}
         >
           <p className="text-center py-1 text-xl">
-            I've utilized Framer Motion to assist in the implementation of animation in Reactjs for seamless clean web animation. 
+            I've utilized Framer Motion for seamless clean web animations. 
           </p>
         </motion.div>
 
