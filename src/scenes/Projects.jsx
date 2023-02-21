@@ -77,34 +77,34 @@ const Projects = () => {
           >
             STUNNING VISUAL GRAPHICS
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <Project title="project 1" />
+          <Project title="project 2" />
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="project 3" />
+          <Project title="project 4" />
+          <Project title="project 5" />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
-          <Project title="Project 8" />
+          <Project title="project 6" />
+          <Project title="project 7" />
+          <Project title="project 8" />
 
           {/* ROW 4 */}
-          <Project title="Project 9" />
-          <Project title="Project 10" />
-          <Project title="Project 11" />
+          <Project title="project 9" />
+          <Project title="project 10" />
+          <Project title="project 11" />
           {/* ROW 5 */}
-          <Project title="Project 12" />
-          <Project title="Project 13" />
-          <Project title="Project 14" />
+          <Project title="project 12" />
+          <Project title="project 13" />
+          <Project title="project 14" />
           {/* ROW 6 */}
-          <Project title="Project 15" />
-          <Project title="Project 16" />
-          <Project title="Project 17" />
+          <Project title="project 15" />
+          <Project title="project 16" />
+          <Project title="project 17" />
           {/* ROW 7 */}
-          <Project title="Project 18" />
-          <Project title="Project 19" />
+          <Project title="project 18" />
+          <Project title="project 19" />
 
           <div
             className="flex justify-center text-center items-center p-10 bg-black
