@@ -10,29 +10,6 @@ const container = {
   },
 };
 
-const projectVariant = {
-  hidden: { opacity: 0, scale: 0.8 },
-  visible: { opacity: 1, scale: 1 },
-};
-
-const Project = ({ title }) => {
-  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-  const projectTitle = title.split(" ").join("-").toLowerCase();
-
-  return (
-    <motion.div variants={projectVariant} className="relative">
-      <div className={overlayStyles}>
-        <p className="text-2xl font-Roboto">{title}</p>
-        <p className="mt-7">
-          These projects were created using a variety of techniques and softwares. Some demonstrate graphic creation and photo manipulation through the Adobe Creative Suite while others demonstrate 3D modeling creation through Blender.
-        </p>
-      </div>
-      <img src={`./assets/${projectTitle}.png`} alt={projectTitle} />
-    </motion.div>
-  );
-};
-
 const Projects = () => {
   return (
     <section id="projects" className="pt-48 pb-48">
@@ -77,34 +54,35 @@ const Projects = () => {
           >
             STUNNING VISUAL GRAPHICS
           </div>
-          <Project className="content-project1" title="project 1" />
-          <Project title="project 2" />
+
+          <img src="./assets/project-1.png"/>
+          <img src="./assets/project-2.png"/>
 
           {/* ROW 2 */}
-          <Project title="project 3" />
-          <Project title="project 4" />
-          <Project title="project 5" />
+          <img src="./assets/project-3.png"/>
+          <img src="./assets/project-4.png"/>
+          <img src="./assets/project-5.png"/>
 
           {/* ROW 3 */}
-          <Project title="project 6" />
-          <Project title="project 7" />
-          <Project title="project 8" />
+          <img src="./assets/project-6.png"/>
+          <img src="./assets/project-7.png"/>
+          <img src="./assets/project-8.png"/>
 
           {/* ROW 4 */}
-          <Project title="project 9" />
-          <Project title="project 10" />
-          <Project title="project 11" />
+          <img src="./assets/project-9.png"/>
+          <img src="./assets/project-10.png"/>
+          <img src="./assets/project-11.png"/>
           {/* ROW 5 */}
-          <Project title="project 12" />
-          <Project title="project 13" />
-          <Project title="project 14" />
+          <img src="./assets/project-12.png"/>
+          <img src="./assets/project-13.png"/>
+          <img src="./assets/project-14.png"/>
           {/* ROW 6 */}
-          <Project title="project 15" />
-          <Project title="project 16" />
-          <Project title="project 17" />
+          <img src="./assets/project-15.png"/>
+          <img src="./assets/project-16.png"/>
+          <img src="./assets/project-17.png"/>
           {/* ROW 7 */}
-          <Project title="project 18" />
-          <Project title="project 19" />
+          <img src="./assets/project-18.png"/>
+          <img src="./assets/project-19.png"/>
 
           <div
             className="flex justify-center text-center items-center p-10 bg-black
