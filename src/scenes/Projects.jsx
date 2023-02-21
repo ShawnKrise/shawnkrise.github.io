@@ -77,7 +77,7 @@ const Projects = () => {
           >
             STUNNING VISUAL GRAPHICS
           </div>
-          <Project title="project 1" />
+          <Project className="content-project1" title="project 1" />
           <Project title="project 2" />
 
           {/* ROW 2 */}
