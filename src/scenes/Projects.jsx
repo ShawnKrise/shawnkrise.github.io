@@ -28,7 +28,7 @@ const Project = ({ title }) => {
           These projects were created using a variety of techniques and softwares. Some demonstrate graphic creation and photo manipulation through the Adobe Creative Suite while others demonstrate 3D modeling creation through Blender.
         </p>
       </div>
-      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
+      <img src={`assets/${projectTitle}.png`} alt={projectTitle} />
     </motion.div>
   );
 };
