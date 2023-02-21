@@ -211,7 +211,7 @@ const Coding = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          Built a TicTacToe game using Reactjs, JavaScript, CSS, and HTML in order to improve my logic skills using If Else statements. Check out the code for it on my GitHub.
+          Built a TicTacToe game using Reactjs, JavaScript, CSS, and HTML in order to improve my logic skills using If Else statements. <a className="text-blue" href="https://shawnkrise.github.io/TicTacToeGame/">Click here to check it out!</a>
           </p>
         </motion.div>
 
