@@ -215,8 +215,8 @@ const Coding = () => {
           </p>
         </motion.div>
 
-        {/* COMPANY WEBSITE PROJECT */}
-        <motion.div
+{/* TODO LIST PROJECT */}
+<motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
           whileInView="visible"
@@ -231,10 +231,37 @@ const Coding = () => {
             <div className="z-10">
               <p className="font-Roboto font-semibold text-5xl">03</p>
               <p className="font-Roboto font-semibold text-3xl mt-3">
-                Commercial Brokerage Website
+                Todo List Application
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+          </div>
+          <p className="mt-5">
+          Built a simple Todo List application using Reactjs, JavaScript, CSS, and HTML to improve understanding of React hooks usage. <a className="text-blue" href="https://shawnkrise.github.io/TodoList/">Click here to check it out!</a>
+          </p>
+        </motion.div>
+
+
+        {/* COMPANY WEBSITE PROJECT */}
+        <motion.div
+          className="md:w-1/3 mt-10"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
+          <div className="relative h-32">
+            <div className="z-10">
+              <p className="font-Roboto font-semibold text-5xl">04</p>
+              <p className="font-Roboto font-semibold text-3xl mt-3">
+                Commercial Brokerage Website
+              </p>
+            </div>
+            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
           Built a custom website for Commercial Brokerage LLC using tools such as Reactjs, Tailwind, JavaScript, Framer Motion, HTML, and CSS.
