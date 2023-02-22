@@ -185,7 +185,7 @@ const Coding = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 text-justify">
           Built a custom personal portfolio website using tools such as Reactjs, Tailwind, JavaScript, Framer Motion, HTML, and CSS. You're looking at it right now!
           </p>
         </motion.div>
@@ -210,7 +210,7 @@ const Coding = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 text-justify">
           Built a TicTacToe game using Reactjs, JavaScript, CSS, and HTML in order to improve my logic skills using If Else statements. <a className="text-blue" href="https://shawnkrise.github.io/TicTacToeGame/">Click here to check it out!</a>
           </p>
         </motion.div>
@@ -236,7 +236,7 @@ const Coding = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 text-justify">
           Built a simple Todo List application using Reactjs, JavaScript, CSS, and HTML to improve understanding of React hooks usage. <a className="text-blue" href="https://shawnkrise.github.io/TodoList/">Click here to check it out!</a>
           </p>
         </motion.div>
@@ -263,7 +263,7 @@ const Coding = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 text-justify">
           Built a custom website for Commercial Brokerage LLC using tools such as Reactjs, Tailwind, JavaScript, Framer Motion, HTML, and CSS.
           </p>
         </motion.div>

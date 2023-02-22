@@ -69,7 +69,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 text-justify">
             I have experience working as a Marketing Specialist/Graphic Designer at Commercial Brokerage LLC seasonally from May 2016 to December 2021 and then transitioned to full time from May 2022 to December 2022.  The job required I design custom flyer advertising layouts using the Adobe Software Suite and Microsoft Office for
 commercial properties located throughout Bernalillo County, New Mexico. I also Traveled to and inspected
 property sites, logged appropriate details, and photographed sites for company usage. My other tasks included dealing with technical support matters and creating/maintaining a custom company website using frontend development tools.
@@ -97,7 +97,7 @@ property sites, logged appropriate details, and photographed sites for company u
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 text-justify">
             In May of 2022 I graduated from the University of New Mexico with a Bachelor of Business Administration with a concentration of Marketing Management. My classes covered a wide array of Marketing concepts and skills. Examples include developing in indepth understanding of how user data is gathered and interpreted through tools such as Qualtrics and IBM SPSS Statistics. In addition, I gained valuable sale skills through a Professional Selling course that involved skills such as cold calling and the usage of Salesforce.
           </p>
         </motion.div>
@@ -123,7 +123,7 @@ property sites, logged appropriate details, and photographed sites for company u
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 text-justify">
             Throughout all of High School and College I have been constantly using the Adobe Creative Suite for a multitude of personal and school related projects. For instance, during High School I acted as the head graphic designer for my schools yearbook association. This involved using skills based in Photoshop and InDesign to create yearbook pages in collaboration with my fellow yearbook members. In college, I also utilized the entire Creative Suite for several courses that helped further my experience. Furthermore, I have refined my skill with these programs by constantly teaching myself new things for personal projects. Examples of this can be found all throughout this website. 
           </p>
         </motion.div>
@@ -148,7 +148,7 @@ property sites, logged appropriate details, and photographed sites for company u
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 text-justify">
             I have experience utilizing many Microsoft applications such as Word, Teams, Outlook, PowerPoint, and Excel with a high degree of skill. Many of my courses throughout my educational journey have required the usage of these applications and have taught me in depth utilization tips such as Excel Macros to optimize my productivity while working with them.
           </p>
         </motion.div>
@@ -174,7 +174,7 @@ property sites, logged appropriate details, and photographed sites for company u
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 text-justify">
             My educational journey along with work experience has also made me incredibly familiar with Google applications such as Drive, Docs, Slides, and Forms on my own as well as in tandem with others. Additionally, I am familiar with Google AdWords Keyword Planner and have certifications for Google Ads Search, and Google Analytics.
           </p>
         </motion.div>
@@ -200,7 +200,7 @@ property sites, logged appropriate details, and photographed sites for company u
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 text-justify">
             I possess a certification for the Hootsuite Platform as well as a certification for HubSpot Social Media Marketing. Similarly, I have SEMrush certifications in SEMrush SEO and SEMrush Advanced Content Marketing.
           </p>
         </motion.div>
