@@ -241,8 +241,7 @@ const Coding = () => {
           </p>
         </motion.div>
 
-
-        {/* COMPANY WEBSITE PROJECT */}
+{/* WORDLE PROJECT */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -257,6 +256,32 @@ const Coding = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-Roboto font-semibold text-5xl">04</p>
+              <p className="font-Roboto font-semibold text-3xl mt-3">
+                Wordle Project
+              </p>
+            </div>
+            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+          </div>
+          <p className="mt-5 text-justify">
+          Built a Wordle clone using Reactjs, JavaScript, CSS, and HTML to gain a better understanding of array inputs in a matrix. <a className="text-blue" href="https://shawnkrise.github.io/WordleClone/">Click here to check it out!</a>
+          </p>
+        </motion.div>
+
+{/* COMPANY WEBSITE PROJECT */}
+        <motion.div
+          className="md:w-1/3 mt-10"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
+          <div className="relative h-32">
+            <div className="z-10">
+              <p className="font-Roboto font-semibold text-5xl">05</p>
               <p className="font-Roboto font-semibold text-3xl mt-3">
                 Commercial Brokerage Website
               </p>
