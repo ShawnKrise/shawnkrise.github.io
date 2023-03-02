@@ -27,14 +27,14 @@ const Projects = () => {
       >
         <div>
           <p className="font-Roboto font-semibold text-4xl">
-            <span className="text-blue">PRO</span>JECTS
+            <span className="text-blue">VISUAL PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
             <LineGradient width="w-2/3" />
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Below are some examples of visual graphics I've made in the past that cover a wide array of themes, styles, and usages. 
+          Below are some examples of visual graphics I've made in the past that cover a wide array of themes, styles, and usages. If you're looking for my coding projects instead, those can be found in the coding section.
         </p>
       </motion.div>
 
