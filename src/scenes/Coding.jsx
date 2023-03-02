@@ -29,7 +29,7 @@ const Coding = () => {
       <div className="sm:grid sm:grid-cols-3 md:justify-between gap-8">
         <motion.div
           className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person1"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -39,14 +39,17 @@ const Coding = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center py-10 text-xl">
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-1.png" alt=""/>
+          <p className="text-center text-xl">
             I've used Reactjs for frontend development projects such as this website.
           </p>
+          </div>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person2"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -56,14 +59,17 @@ const Coding = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center py-10 text-xl">
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-2.png" alt=""/>
+          <p className="text-center text-xl">
             I've learned how to utilize Tailwind CSS framework for frontend development usage.
           </p>
+          </div>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person3"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -73,14 +79,17 @@ const Coding = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center py-3 text-xl">
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-3.png" alt=""/>
+          <p className="text-center text-xl">
             I have an understanding of the utilization of JavaScript for website frontend development.
           </p>
+          </div>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person4"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -90,14 +99,17 @@ const Coding = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center py-1 text-xl">
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-4.png" alt=""/>
+          <p className="text-center text-xl">
             I've utilized Framer Motion for seamless clean web animations. 
           </p>
+          </div>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person5"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -107,14 +119,17 @@ const Coding = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center py-6 text-xl">
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-5.png" alt=""/>
+          <p className="text-center text-xl">
             I have experience with HTML for web browsers through projects such as this.
           </p>
+          </div>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person6"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -124,14 +139,17 @@ const Coding = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center py-6 text-xl">
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-6.png" alt=""/>
+          <p className="text-center text-xl">
             Similar to HTML, I have utilized CSS for web browser sites such as this.
           </p>
+          </div>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person7"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -141,14 +159,17 @@ const Coding = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center py-6 text-xl">
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-7.png" alt=""/>
+          <p className="text-center text-xl">
             I have used google Firebase for user Authentication and Database purposes.
           </p>
+          </div>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person8"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -158,14 +179,17 @@ const Coding = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center py-12 text-xl">
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-8.png" alt=""/>
+          <p className="text-center text-xl">
             I have used Sass for CSS styling purposes for projects. 
           </p>
+          </div>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person9"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -175,9 +199,13 @@ const Coding = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center py-12 text-xl">
-            I have used Yarn as a JavaScript package manager for some of my projects.
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-9.png" alt=""/>
+          <p className="text-center text-xl">
+          I have used Yarn as a JavaScript package manager for some of my projects.
           </p>
+          
+          </div>
         </motion.div>
       </div>
   {/* CODING PROJECTS */}
