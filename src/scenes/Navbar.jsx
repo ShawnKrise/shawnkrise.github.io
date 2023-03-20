@@ -36,7 +36,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Skills"
+              page="Coding"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
@@ -46,7 +46,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Coding"
+              page="Skills"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
@@ -82,8 +82,8 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-              <Link
-                page="Skills"
+               <Link
+                page="Coding"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
@@ -93,7 +93,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setSelectedPage={setSelectedPage}
               />
               <Link
-                page="Coding"
+                page="Skills"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
