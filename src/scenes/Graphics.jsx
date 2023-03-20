@@ -10,9 +10,9 @@ const container = {
   },
 };
 
-const Projects = () => {
+const Graphics = () => {
   return (
-    <section id="projects" className="pt-48 pb-48">
+    <section id="graphics" className="pt-48 pb-48">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/5 mx-auto text-center"
@@ -34,7 +34,8 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Below are some examples of visual graphics I've made in the past that cover a wide array of themes, styles, and usages. If you're looking for my coding projects instead, those can be found in the coding section.
+          Below are some examples of visual graphics I've made in the past that cover a wide array of themes, styles, and usages. 
+          If you're looking for my coding projects instead, those can be found in the coding section.
         </p>
       </motion.div>
 
@@ -131,4 +132,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Graphics;

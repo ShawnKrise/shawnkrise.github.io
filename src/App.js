@@ -3,7 +3,7 @@ import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
 import MySkills from "./scenes/MySkills";
 import LineGradient from "./components/LineGradient";
-import Projects from "./scenes/Projects";
+import Graphics from "./scenes/Graphics";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
 import useMediaQuery from "./hooks/useMediaQuery";
@@ -67,9 +67,9 @@ function App() {
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
-          onViewportEnter={() => setSelectedPage("projects")}
+          onViewportEnter={() => setSelectedPage("graphics")}
         >
-          <Projects />
+          <Graphics />
         </motion.div>
       </div>
       <LineGradient />
