@@ -38,9 +38,9 @@ const Coding = () => {
       </a>
       </motion.div>
       
-  {/* CODING PROJECTS */}
+        {/* CODING PROJECTS */}
       <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center mt-16 gap-32">
-  {/* PORTFOLIO PROJECT */}
+        {/* PORTFOLIO PROJECT */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -75,9 +75,8 @@ const Coding = () => {
       </a>
           </div>
         </motion.div>
-
-  {/* TICTACTOE PROJECT */}
-        <motion.div
+        {/* ADMIN APP PROJECT */}
+      <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
           whileInView="visible"
@@ -92,39 +91,38 @@ const Coding = () => {
             <div className="z-10">
               <p className="font-Roboto font-semibold text-5xl">02</p>
               <p className="font-Roboto font-semibold text-3xl mt-3">
-                TicTacToe Game
+                Mock Administration Dashboard App
               </p>
             </div>
-            <div className="absolute right-1 top-1 max-w-[120px] max-h-[120px]">
-            <img src="./assets/TicTacToe.png" alt=""/>
+            <div className="absolute right-1 top-1 max-w-[220px] max-h-[220px]">
+            <img src="./assets/AdminApp.png" alt=""/>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-justify">
-          Built a TicTacToe game using Reactjs, JavaScript, CSS, and HTML in order to improve my logic skills using If Else statements. 
+          Built a custom front-end Admin Dashboard project using Material UI, Data Grid, Full Calendar, Formik, Yup, and Nivo Charts.
           </p>
           <div className="flex justify-center my-10 gap-7">
           <a
-        href="https://shawnkrise.github.io/TicTacToeGame/"
+        href="https://shawnkrise.github.io/AdminDashboard/"
         target="_blank"
         rel="noreferrer"
       >
-         <button className="bg-yellow text-deep-blue rounded-sm py-3 px-7 font-bold
-              hover:bg-yellow hover:text-white transition duration-500" >Demo</button>
+         <button className="bg-blue text-deep-blue rounded-sm py-3 px-7 font-bold
+              hover:bg-blue hover:text-white transition duration-500" >Demo</button>
       </a>
       <a
-        href="https://github.com/ShawnKrise/TicTacToeGame"
+        href="https://github.com/ShawnKrise/AdminDashboard"
         target="_blank"
         rel="noreferrer"
       >
-         <button className="bg-yellow text-deep-blue rounded-sm py-3 px-7 font-bold
-              hover:bg-yellow hover:text-white transition duration-500" >Repository</button>
+         <button className="bg-blue text-deep-blue rounded-sm py-3 px-7 font-bold
+              hover:bg-blue hover:text-white transition duration-500" >Repository</button>
       </a>
       </div>
         </motion.div>
-
-{/* TODO LIST PROJECT */}
-<motion.div
+      {/* CHAT APP WEBSITE PROJECT */}
+        <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
           whileInView="visible"
@@ -139,20 +137,20 @@ const Coding = () => {
             <div className="z-10">
               <p className="font-Roboto font-semibold text-5xl">03</p>
               <p className="font-Roboto font-semibold text-3xl mt-3">
-                Todo List Application
+                Chat App Website
               </p>
-              </div>
-              <div className="absolute right-1 top-1 max-w-[120px] max-h-[120px]">
-            <img src="./assets/TodoList.png" alt=""/>
-              </div>
+            </div>
+            <div className="absolute right-1 top-1 max-w-[120px] max-h-[120px]">
+            <img src="./assets/ChatApp.png" alt=""/>
+            </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-justify">
-          Built a simple Todo List application using Reactjs, JavaScript, CSS, and HTML to improve understanding of React hooks usage.
+          Built a fully functional Chat Application using Reactjs, JavaScript, Scss, Yarn, and Google Firebase.
           </p>
           <div className="flex justify-center my-10 gap-7">
           <a
-        href="https://shawnkrise.github.io/TodoList/"
+        href="https://shawnkrise.github.io/ChatApp/#/login"
         target="_blank"
         rel="noreferrer"
       >
@@ -160,7 +158,7 @@ const Coding = () => {
               hover:bg-yellow hover:text-white transition duration-500" >Demo</button>
       </a>
       <a
-        href="https://github.com/ShawnKrise/TodoList"
+        href="https://github.com/ShawnKrise/ChatApp"
         target="_blank"
         rel="noreferrer"
       >
@@ -170,7 +168,7 @@ const Coding = () => {
       </div>
         </motion.div>
 
-{/* WORDLE PROJECT */}
+      {/* WORDLE PROJECT */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -192,7 +190,7 @@ const Coding = () => {
             <div className="absolute right-1 top-1 max-w-[120px] max-h-[120px]">
             <img src="./assets/Wordle.png" alt=""/>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-justify">
           Built a Wordle clone using Reactjs, JavaScript, CSS, and HTML to gain a better understanding of array inputs in a matrix. 
@@ -203,22 +201,21 @@ const Coding = () => {
         target="_blank"
         rel="noreferrer"
       >
-         <button className="bg-blue text-deep-blue rounded-sm py-3 px-7 font-bold
-              hover:bg-blue hover:text-white transition duration-500" >Demo</button>
+         <button className="bg-yellow text-deep-blue rounded-sm py-3 px-7 font-bold
+              hover:bg-yellow hover:text-white transition duration-500" >Demo</button>
       </a>
       <a
         href="https://github.com/ShawnKrise/WordleClone"
         target="_blank"
         rel="noreferrer"
       >
-         <button className="bg-blue text-deep-blue rounded-sm py-3 px-7 font-bold
-              hover:bg-blue hover:text-white transition duration-500" >Repository</button>
+         <button className="bg-yellow text-deep-blue rounded-sm py-3 px-7 font-bold
+              hover:bg-yellow hover:text-white transition duration-500" >Repository</button>
       </a>
       </div>
         </motion.div>
-
-{/* CHAT APP WEBSITE PROJECT */}
-<motion.div
+      {/* TICTACTOE PROJECT */}
+        <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
           whileInView="visible"
@@ -233,20 +230,20 @@ const Coding = () => {
             <div className="z-10">
               <p className="font-Roboto font-semibold text-5xl">05</p>
               <p className="font-Roboto font-semibold text-3xl mt-3">
-                Chat App Website
+                TicTacToe Game
               </p>
             </div>
             <div className="absolute right-1 top-1 max-w-[120px] max-h-[120px]">
-            <img src="./assets/ChatApp.png" alt=""/>
+            <img src="./assets/TicTacToe.png" alt=""/>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-justify">
-          Built a fully functional Chat Application using Reactjs, JavaScript, Scss, Yarn, and Google Firebase.
+          Built a TicTacToe game using Reactjs, JavaScript, CSS, and HTML in order to improve my logic skills using If Else statements. 
           </p>
           <div className="flex justify-center my-10 gap-7">
           <a
-        href="https://shawnkrise.github.io/ChatApp/#/login"
+        href="https://shawnkrise.github.io/TicTacToeGame/"
         target="_blank"
         rel="noreferrer"
       >
@@ -254,7 +251,7 @@ const Coding = () => {
               hover:bg-blue hover:text-white transition duration-500" >Demo</button>
       </a>
       <a
-        href="https://github.com/ShawnKrise/ChatApp"
+        href="https://github.com/ShawnKrise/TicTacToeGame"
         target="_blank"
         rel="noreferrer"
       >
@@ -264,7 +261,7 @@ const Coding = () => {
       </div>
         </motion.div>
 
-{/* COMPANY WEBSITE PROJECT */}
+      {/* TODO LIST PROJECT */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -279,6 +276,53 @@ const Coding = () => {
           <div className="display: grid relative h-32">
             <div className="z-10">
               <p className="font-Roboto font-semibold text-5xl">06</p>
+              <p className="font-Roboto font-semibold text-3xl mt-3">
+                Todo List Application
+              </p>
+              </div>
+              <div className="absolute right-1 top-1 max-w-[120px] max-h-[120px]">
+            <img src="./assets/TodoList.png" alt=""/>
+              </div>
+            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+          </div>
+          <p className="mt-5 text-justify">
+          Built a simple Todo List application using Reactjs, JavaScript, CSS, and HTML to improve understanding of React hooks usage.
+          </p>
+          <div className="flex justify-center my-10 gap-7">
+          <a
+        href="https://shawnkrise.github.io/TodoList/"
+        target="_blank"
+        rel="noreferrer"
+      >
+         <button className="bg-blue text-deep-blue rounded-sm py-3 px-7 font-bold
+              hover:bg-blue hover:text-white transition duration-500" >Demo</button>
+      </a>
+      <a
+        href="https://github.com/ShawnKrise/TodoList"
+        target="_blank"
+        rel="noreferrer"
+      >
+         <button className="bg-blue text-deep-blue rounded-sm py-3 px-7 font-bold
+              hover:bg-blue hover:text-white transition duration-500" >Repository</button>
+      </a>
+      </div>
+        </motion.div>
+
+      {/* COMPANY WEBSITE PROJECT */}
+        <motion.div
+          className="md:w-1/3 mt-10"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
+          <div className="display: grid relative h-32">
+            <div className="z-10">
+              <p className="font-Roboto font-semibold text-5xl">07</p>
               <p className="font-Roboto font-semibold text-3xl mt-3">
                 Commercial Brokerage Website
               </p>
