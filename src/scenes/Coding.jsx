@@ -4,213 +4,9 @@ import { motion } from "framer-motion";
 const Coding = () => {
   return (
     <section id="coding" className="pt-32 pb-16">
-      {/* HEADING */}
-      <motion.div
-        className="md:w-1/3 text-center md:text-left"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ duration: 0.5 }}
-        variants={{
-          hidden: { opacity: 0, x: -50 },
-          visible: { opacity: 1, x: 0 },
-        }}
-      >
-        <p className="font-Roboto font-semibold text-4xl mb-5 text-red">
-          Coding Languages
-        </p>
-        <LineGradient width="mx-auto w-2/5" />
-        <p className="mt-10">
-          Here are some of the coding resources I'm familiar with. In fact, many were used in the making of this very website!
-        </p>
-      </motion.div>
-
-      {/* CODING */}
-      <div className="sm:grid sm:grid-cols-3 md:justify-between gap-8">
-        <motion.div
-          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.6 }}
-          variants={{
-            hidden: { opacity: 0, scale: 0.3 },
-            visible: { opacity: 1, scale: 1 },
-          }}
-        >
-          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
-          <img src="./assets/person-1.png" alt=""/>
-          <p className="text-center text-xl">
-            I've used Reactjs for frontend development projects such as this website.
-          </p>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.2, duration: 0.6 }}
-          variants={{
-            hidden: { opacity: 0, scale: 0.8 },
-            visible: { opacity: 1, scale: 1 },
-          }}
-        >
-          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
-          <img src="./assets/person-2.png" alt=""/>
-          <p className="text-center text-xl">
-            I've learned how to utilize Tailwind CSS framework for frontend development usage.
-          </p>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.4, duration: 0.6 }}
-          variants={{
-            hidden: { opacity: 0, scale: 0.8 },
-            visible: { opacity: 1, scale: 1 },
-          }}
-        >
-          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
-          <img src="./assets/person-3.png" alt=""/>
-          <p className="text-center text-xl">
-            I have an understanding of the utilization of JavaScript for website frontend development.
-          </p>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.4, duration: 0.6 }}
-          variants={{
-            hidden: { opacity: 0, scale: 0.8 },
-            visible: { opacity: 1, scale: 1 },
-          }}
-        >
-          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
-          <img src="./assets/person-4.png" alt=""/>
-          <p className="text-center text-xl">
-            I've utilized Framer Motion for seamless clean web animations. 
-          </p>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.4, duration: 0.6 }}
-          variants={{
-            hidden: { opacity: 0, scale: 0.8 },
-            visible: { opacity: 1, scale: 1 },
-          }}
-        >
-          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
-          <img src="./assets/person-5.png" alt=""/>
-          <p className="text-center text-xl">
-            I have experience with HTML for web browsers through projects such as this.
-          </p>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.4, duration: 0.6 }}
-          variants={{
-            hidden: { opacity: 0, scale: 0.8 },
-            visible: { opacity: 1, scale: 1 },
-          }}
-        >
-          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
-          <img src="./assets/person-6.png" alt=""/>
-          <p className="text-center text-xl">
-            Similar to HTML, I have utilized CSS for web browser sites such as this.
-          </p>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.4, duration: 0.6 }}
-          variants={{
-            hidden: { opacity: 0, scale: 0.8 },
-            visible: { opacity: 1, scale: 1 },
-          }}
-        >
-          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
-          <img src="./assets/person-7.png" alt=""/>
-          <p className="text-center text-xl">
-            I have used google Firebase for user Authentication and Database purposes.
-          </p>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.4, duration: 0.6 }}
-          variants={{
-            hidden: { opacity: 0, scale: 0.8 },
-            visible: { opacity: 1, scale: 1 },
-          }}
-        >
-          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
-          <img src="./assets/person-8.png" alt=""/>
-          <p className="text-center text-xl">
-            I have used Sass for CSS styling purposes for projects. 
-          </p>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.4, duration: 0.6 }}
-          variants={{
-            hidden: { opacity: 0, scale: 0.8 },
-            visible: { opacity: 1, scale: 1 },
-          }}
-        >
-          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
-          <img src="./assets/person-9.png" alt=""/>
-          <p className="text-center text-xl">
-          I have used Yarn as a JavaScript package manager for some of my projects.
-          </p>
-          
-          </div>
-        </motion.div>
-      </div>
-  {/* CODING PROJECTS */}
-      <motion.div
-        className="pt-16 pb-5 md:w-2/5 mx-auto text-center"
+     {/* HEADING */}
+     <motion.div
+        className="md:w-2/5 mx-auto text-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -222,13 +18,14 @@ const Coding = () => {
       >
         <div>
           <p className="font-Roboto font-semibold text-4xl">
-            <span >Coding Projects</span>
+            <span className="text-blue">CODING PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
             <LineGradient width="w-2/3" />
           </div>
-          <p className="mt-10 mb-10">
-          I've also created some coding projects, some of which you can check out in respective repositories on my github profile.  
+        </div>
+        <p className="mt-10 mb-10">
+        Here are my coding projects! Check out the demo as well as their respective repositories on my github profile.
         </p>
 
         <a
@@ -239,9 +36,9 @@ const Coding = () => {
       >
         <img alt="github-link" src="../assets/big-github.png" />
       </a>
-        </div>
       </motion.div>
-
+      
+  {/* CODING PROJECTS */}
       <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center mt-16 gap-32">
   {/* PORTFOLIO PROJECT */}
         <motion.div
@@ -514,6 +311,216 @@ const Coding = () => {
       </div>
         </motion.div>
     </div>
+     {/* HEADING 2 */}
+     <motion.div
+        className="md:w-2/5 mx-auto text-center"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, y: -50 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      >
+        <div>
+          <p className="font-Roboto font-semibold text-4xl mt-10">
+            <span>CODING TOOLS</span>
+          </p>
+          <div className="flex justify-center mt-5">
+            <LineGradient width="w-2/3" />
+          </div>
+        </div>
+        <p className="mt-10 ">
+        Here are some of the coding resources I'm familiar with. In fact, many were used in the making of this very website!
+        </p>
+
+      </motion.div>
+     
+
+      {/* CODING */}
+      <div className="sm:grid sm:grid-cols-3 md:justify-between gap-8">
+        <motion.div
+          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.3 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-1.png" alt=""/>
+          <p className="text-center text-xl">
+            I've used Reactjs for frontend development projects such as this website.
+          </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-2.png" alt=""/>
+          <p className="text-center text-xl">
+            I've learned how to utilize Tailwind CSS framework for frontend development usage.
+          </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-3.png" alt=""/>
+          <p className="text-center text-xl">
+            I have an understanding of the utilization of JavaScript for website frontend development.
+          </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-4.png" alt=""/>
+          <p className="text-center text-xl">
+            I've utilized Framer Motion for seamless clean web animations. 
+          </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-5.png" alt=""/>
+          <p className="text-center text-xl">
+            I have experience with HTML for web browsers through projects such as this.
+          </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-6.png" alt=""/>
+          <p className="text-center text-xl">
+            Similar to HTML, I have utilized CSS for web browser sites such as this.
+          </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-7.png" alt=""/>
+          <p className="text-center text-xl">
+            I have used google Firebase for user Authentication and Database purposes.
+          </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-8.png" alt=""/>
+          <p className="text-center text-xl">
+            I have used Sass for CSS styling purposes for projects. 
+          </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="mx-auto relative bg-deep-greyblue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center">
+          <img src="./assets/person-9.png" alt=""/>
+          <p className="text-center text-xl">
+          I have used Yarn as a JavaScript package manager for some of my projects.
+          </p>
+          
+          </div>
+        </motion.div>
+      </div>
     </section>
   );
 };
