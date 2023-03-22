@@ -62,7 +62,9 @@ const Landing = ({ setSelectedPage }) => {
              </h1>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            I'm a recent graduate from the University of New Mexico that just obtained a Bachelor of Business Administration with a concentration in Marketing Management. In addition, I have graphic design experience with the Adobe Creative Suite as well as experience with Frontend Development.
+          As an individual pursuing a career in frontend development, I am passionate about creating user-friendly, visually appealing, and functional websites/applications.
+          My background in marketing has provided me with a unique perspective on user experience and the importance of creating engaging and dynamic web interfaces. 
+          With all these skills and experiences, I am excited to apply what I've learned to bring any project to life.
           </p>
         </motion.div>
 
