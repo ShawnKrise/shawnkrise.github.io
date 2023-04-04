@@ -333,7 +333,7 @@ const Coding = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          Built a custom website for Commercial Brokerage LLC using tools such as Reactjs, Tailwind, JavaScript, Framer Motion, HTML, and CSS.
+          Built a custom mock website for Commercial Brokerage LLC using tools such as Reactjs, Tailwind, JavaScript, Framer Motion, HTML, and CSS.
           </p>
           <div className="flex justify-center my-10 gap-7">
           <a
